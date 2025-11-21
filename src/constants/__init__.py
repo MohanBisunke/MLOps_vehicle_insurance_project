@@ -59,3 +59,13 @@ MIN_SAMPLES_SPLIT_RANDOM_STATE: int = 101
 
 
 
+#aws 
+AWS_ACCESS_KEY_ID_ENV_KEY : str = "AWS_ACCESS_KEY"
+AWS_SECRET_ACCESS_KEY_ENV_KEY : str = "AWS_SECRET_ACCESS_KEY"
+REGION_NAME : str = 'us-east-1'
+
+
+##MODEL Evaluation related constants
+MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
+MODEL_BUCKET_NAME = "my-model-mlopsproj"
+MODEL_PUSHER_S3_KEY = "model-registry"
