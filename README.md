@@ -290,30 +290,6 @@ http://<public-ip>:5080
 
 ---
 
-# 📁 **Recommended Project Structure**
-
-```
-.
-├── src/
-│   ├── components/
-│   ├── configuration/
-│   ├── data_access/
-│   ├── entity/
-│   ├── utils/
-│   ├── pipelines/
-├── notebook/
-├── static/
-├── templates/
-├── requirements.txt
-├── setup.py
-├── pyproject.toml
-├── Dockerfile
-├── app.py
-└── .github/workflows/aws.yaml
-```
-
----
-
 # 🚀 **How to Run the Project Locally**
 
 ```bash
