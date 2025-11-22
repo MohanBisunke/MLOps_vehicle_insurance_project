@@ -65,7 +65,7 @@ REGION_NAME = "us-east-1"
 
 
 ##MODEL Evaluation related constants
-MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
+MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.03
 MODEL_BUCKET_NAME = "mlops-vehicle-bucket"
 MODEL_PUSHER_S3_KEY = "model-registry"
 
